@@ -11,6 +11,6 @@ def my_each(numbers)
     yield(numbers[i])
     i += 1
       my_each(numbers).return
-  end    
+  end
   end
 end
