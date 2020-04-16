@@ -4,10 +4,10 @@ end
 
 list = ["ab", "cd", "ef"]
 
-def my_each(array)
+def my_each(number)
   i = 0
-  while i < array.length
-    yield(array[i])
+  while i < number.length
+    yield(number[i])
     i = i + 1
   end
 end
