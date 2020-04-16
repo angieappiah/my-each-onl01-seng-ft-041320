@@ -10,7 +10,7 @@ def my_each(numbers)
   while i < numbers.length
     yield(numbers[i])
     i += 1
-      my_each(numbers).return
+      #my_each(numbers).return
   end
   end
 end
