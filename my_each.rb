@@ -2,7 +2,7 @@ def my_each
 
 end
 
-
+list = ["ab", "cd", "ef"]
 def hello(array)
   i = 0
   collection = []
