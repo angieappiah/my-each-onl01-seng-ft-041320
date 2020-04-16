@@ -2,7 +2,9 @@ def my_each
 
 end
 
-collection = [1, 2, 3, 4]
-my_each(collection) do |i|
+numbers = [1, 2, 3, 4, 5,6]
+my_each(numbers) 
+do |i|
   puts i
+  my_each(numbers).return
 end
