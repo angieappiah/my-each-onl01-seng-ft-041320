@@ -6,6 +6,7 @@ list = ["dress", "bag", "shoe"]
 
 def my_each(numbers)
   my_each(numbers) do |i|
+    puts i
   i = 0
   while i < numbers.length
     yield(numbers[i])
