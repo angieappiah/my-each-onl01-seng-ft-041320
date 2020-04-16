@@ -2,12 +2,12 @@ def my_each
 
 end
 
-list = ["ab", "cd", "ef"]
+list = ["dress", "bag", "shoe"]
 
-def my_each(number)
+def my_each(array)
   i = 0
-  while i < number.length
-    yield(number[i])
+  while i < array.length
+    yield(array[i])
     i = i + 1
   end
 end
