@@ -5,4 +5,3 @@ while i < numbers.length
   i += 1
 end
 end
-
