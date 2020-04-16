@@ -7,5 +7,5 @@ end
 end
 
 def my_each(numbers)
-  
+
 end
