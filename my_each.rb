@@ -13,5 +13,4 @@ def my_each(numbers)
     i += 1
       #my_each(numbers).return
   end
-  end
 end
