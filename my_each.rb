@@ -3,15 +3,6 @@ def my_each
 end
 
 list = ["ab", "cd", "ef"]
-def hello(array)
-  i = 0
-  collection = []
-  while i < array.length
-    collection << yield(array[i])
-    i += 1
-  end
-  collection
-end
 
 def my_each(array)
   i = 0
